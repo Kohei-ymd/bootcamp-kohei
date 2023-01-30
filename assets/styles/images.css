@@ -1,0 +1,24 @@
+/* CSS Images */
+
+.toyota {
+    width: 500px;
+}
+
+.suzuki {
+    width: 100%;
+}
+
+/* Background Image */
+
+.container1 {
+    color: white;
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    background-image: url(../images/toyotacar.jpg);
+    background-size: cover; /* 1at value = width, 2nd value = height, if one value only that is for width */
+   /*background-repeat: no-repeat;*/
+    background-position: center; /* top-center-botttom */
+    overflow: auto;  /* auto, scroll,hidden */
+    background-attachment: fixed;
+}

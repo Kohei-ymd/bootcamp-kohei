@@ -1,0 +1,35 @@
+table {
+    width: 500px;
+    border-collapse: separate;/* separate = default */
+}
+
+table tr th {
+    background-color: grey;
+}
+
+table tr td {
+    background-color: burlywood;
+}
+
+/* border-spacing
+
+    border-spacing: 1st 2nd;
+
+    1st value = horizontal(left - right)
+    2nd value = vertical(top - bottom)
+
+    if one value only = both (horizontal and vertical spacing)
+
+*/
+
+table {
+    border-spacing: 15px;
+}
+
+.name {
+    background-color: yellowgreen;
+}
+
+.email {
+    background-color: orange;
+}
